@@ -1,0 +1,63 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Docker Fundamentals",
+      "slug": "docker-fundamentals",
+      "description": "Learn the basics of Docker containerization, including container creation, management, and deployment to various places.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/docker.jpg",
+      "videoId": "https://www.youtube.com/embed/s3-fddV7_xo?si=BuuCRaRrOWA89SmJ",
+      "imageUrl": "https://images.unsplash.com/photo-1646627927863-19874c27316b?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "title": "Kubernetes Essentials",
+      "slug": "kubernetes-essentials",
+      "description": "Master the fundamentals of Kubernetes orchestration for deploying, scaling, and managing containerized applications.",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "/courses/kubernetes.jpg",
+      "videoId": "https://www.youtube.com/embed/lgqyqZOGqLY?si=SZABgjtgJHOyL1Zg",
+      "imageUrl": "https://images.unsplash.com/photo-1667372459470-5f61c93c6d3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8S3ViZXJuZXRlc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": 3,
+      "title": "Linux Administration",
+      "slug": "linux-administration",
+      "description": "Become proficient in Linux system administration, including user management, file permissions, and shell scripting.",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "/courses/linux.jpg",
+      "videoId": "https://www.youtube.com/embed/nH5M_uuxSbs?si=9GyAPZtzJL0ZOCu4",
+      "imageUrl": "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGludXh8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 4,
+      "title": "GitHub Actions Mastery",
+      "slug": "github-actions-mastery",
+      "description": "Explore the capabilities of GitHub Actions for automating workflows, testing, and continuous integration/continuous deployment (CI/CD).",
+      "price": 129.99,
+      "instructor": "Mike Brown",
+      "isFeatured": true,
+      "image": "/courses/github-actions.jpg",
+      "videoId": "https://www.youtube.com/embed/aRdKu93agbA?si=KVhlWRoRoh4ZFk6P",
+      "imageUrl": "https://images.unsplash.com/photo-1618401479427-c8ef9465fbe1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z2l0aHViJTIwYWN0aW9ucyUyMGNpY2R8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": 5,
+      "title": "DevOps Principles and Practices",
+      "slug": "devops-principles-and-practices",
+      "description": "Learn the core principles and best practices of DevOps, including collaboration, automation, and infrastructure as code (IaC).",
+      "price": 139.99,
+      "instructor": "Chris Davis",
+      "isFeatured": false,
+      "image": "/courses/devops.jpg",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1678566153919-86c4ba4216f1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGV2b3BzfGVufDB8fDB8fHww"
+    }
+  ]
+}
