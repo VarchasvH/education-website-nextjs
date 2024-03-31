@@ -1,4 +1,6 @@
 # Education Website
+![image](https://github.com/VarchasvH/education-website-nextjs/assets/100064742/d21d3e7a-b4c0-428a-a99a-9a101127ebe9)
+
 In this project, I've had the pleasure of building a demo Education website using Next.js and Tailwind CSS. As a passionate learner in the realm of web development, particularly in the domains of Docker, Kubernetes, and Linux, I wanted to create a platform that serves as both a learning resource and a showcase of my skills.
 
 ## Technologies Used
