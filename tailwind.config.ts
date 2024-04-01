@@ -113,6 +113,24 @@ const config = {
     },
   },
   plugins: [
+    require("tailwind-scrollbar-hide"),
+    function addCustomScrollStyles({
+      addUtilities,
+    }: {
+      addUtilities: Function;
+    }): void {
+      const newUtilities = {
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none",
+        },
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none",
+        },
+      };
+      addUtilities(newUtilities);
+    },
+
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {

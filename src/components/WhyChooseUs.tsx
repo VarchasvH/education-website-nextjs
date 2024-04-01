@@ -8,7 +8,7 @@ const content = [
     description:
       "Learn from industry professionals and experienced educators who bring real-world insights and practical knowledge to the classroom.",
     content: (
-      <div className='h-full w-full  flex items-center justify-center text-white'>
+      <div className='h-full w-full flex items-center justify-center text-white hide no-scrollbar'>
         <Image
           src='https://images.unsplash.com/photo-1527689368864-3a821dbccc34?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
           width={300}
